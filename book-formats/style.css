@@ -1,0 +1,56 @@
+.item-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-card{
+    min-width: 180px;
+    border: none;
+}
+
+.selected{
+    border: 1px solid #e7762e !important;
+    background-color: #fef8f2;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.selected .card-title{
+    font-weight: bold;
+}
+
+.item-title{
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.details p {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #106ecc !important;
+}
+
+.dark-card-body{
+    padding: 0.6em;
+}
+
+.card-title{
+    margin-bottom: 0;
+}
+
+.audiobook{
+    display: flex;
+}
+
+img{
+    margin-right: 0.5em;
+}
+
+.text-danger{
+    font-weight: 600;
+}
+

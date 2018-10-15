@@ -1,0 +1,82 @@
+p{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 1.8em;
+}
+
+.games-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.8em;
+    margin-left: 0.6em;
+}
+
+.main-card{
+    width: 150px;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    padding: 0;
+    padding-top: 1.3em;
+    padding-left: 0;
+}
+
+.card-subtitle{
+    font-size: 1em;
+    margin-bottom: 0 !important;    
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+.card-subtitle a {
+    color: black;
+    font-weight: 400;
+}
+
+.card-text {
+    font-size: 0.8em;
+    margin: 0
+}
+
+.card-text a {
+    color: grey;
+    font-weight: 400;
+}
+
+.functionality{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price p {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+i {
+    color: gray;
+    font-size: 0.6em;
+}
+
+@media screen and (max-width: 1000px){
+    .games-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1.8em;
+        margin-left: 0.6em;
+    }   
+
+    .main-card{
+        margin: 1.5em;
+    }
+}
